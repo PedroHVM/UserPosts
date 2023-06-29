@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.head{
+.logo{
     background: #32325D;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     padding: 15px 79px;
-    align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+    top: -5px;
 }
-.head h1{
+.logo h1{
     color: #fff;
     font-family: 'Inter', sans-serif;
 }
 .title{
-    margin: 75px;
+    margin: 125px;
     color: #3A4F9A;
     font-family: 'Inter', sans-serif;
     font-size: 36px;
@@ -39,12 +41,11 @@
 }
 .card{
     border-radius: 8px;
-    background: var(--white, #FFF);
+    background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 409px;
-    height: 455px;
-    flex-shrink: 0;
-    text-decoration: none;
+    margin-bottom: 58px;
+    
 }
 .card h1{
     color: var(--title, #3A4F9A);
@@ -53,6 +54,8 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 2px;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }
 .card p{
     font-family: 'Inter', sans-serif;
@@ -61,12 +64,24 @@
     height: 109px;
     flex-direction: column;
     flex-shrink: 0;
-    color: var(--gray, #575757);
+    color: #575757;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
     letter-spacing: 1.3px;
+    margin-left: 40px;
 }
 .card a {
     text-decoration: none;
+}
+.expand{
+    color: var(--title, #3A4F9A);
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.3px;
+    background: none;
+    border: none;
+    margin-left: 330px;
 }
