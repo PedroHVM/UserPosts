@@ -31,8 +31,9 @@
     border: none;
     height: 3px; 
     background-color: #3A4F9A; 
-    width: 300px;
+    width: 310px;
     margin: 26px 0px ;
+    margin-top: 30px;
 }
 .cards{
     display: flex;
@@ -45,13 +46,18 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 409px;
     margin-bottom: 58px;
-    
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 273px;
+    flex-shrink: 0;
 }
 .card h1{
-    color: var(--title, #3A4F9A);
+    color: #3A4F9A;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 20px;
     letter-spacing: 2px;
     margin-left: 40px;
@@ -84,4 +90,27 @@
     background: none;
     border: none;
     margin-left: 330px;
+}
+::-webkit-scrollbar {
+    border-radius: 4px;
+    background: rgba(58, 79, 154, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 13px;
+    height: 637px;
+    flex-shrink: 0;
+}
+  
+  /* Altera o fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+  
+  /* Altera a cor da alça (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #3A4F9A4D;
+}
+  
+  /* Altera a cor da alça (thumb) da barra de rolagem quando está em hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
 }
