@@ -27,13 +27,13 @@ const cards = [
     },
     {
         id: 5,
-        title: "Card 5",
+        title: "Tamandaré",
         imageUrl: "./images/beachHouse5.jpg",
         body: "This is the body of Card 5."
     },
     {
         id: 6,
-        title: "Card 6",
+        title: "Porto de Galinhas",
         imageUrl: "./images/beachHouse6.jpg",
         body: "This is the body of Card 6."
     },

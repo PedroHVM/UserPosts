@@ -13,6 +13,7 @@
     position: fixed;
     width: 100%;
     top: -5px;
+    z-index: 1;
 }
 .logo h1{
     color: #fff;
@@ -102,15 +103,13 @@
     height: 637px;
     flex-shrink: 0;
 }
-  
 ::-webkit-scrollbar-track {
     background-color: #f1f1f1;
 }
-  
 ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
     background-color: #3A4F9A4D;
 }
-  
 ::-webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
@@ -136,7 +135,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: auto;
     margin-top: 105px;
-    width: 711px;
+    width: 762px;
     height: 519px;
     flex-shrink: 0;
     overflow: hidden;
@@ -165,4 +164,49 @@
     line-height: 20px;
     letter-spacing: 1.3px;
     margin-left: 40px;
+}
+.comments{
+    width: 762px;
+    height: 321px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-top: 63px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+.separatorLine{
+    width: 652.007px;
+    height: 0px;
+    flex-shrink: 0;
+    color: #575757;
+    margin: auto;
+    margin-top: 15px;
+}
+.userComment {
+    color: #575757;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1.3px;
+    display: flex;
+    width: 652px;
+    flex-direction: column;
+    margin: auto;
+}
+.userComment span{
+    color: #3A4F9A;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    display: flex;
+    width: 652px;
+    flex-direction: column;
+    margin: auto;
 }
