@@ -23,7 +23,7 @@ This is a simple blog page developed in TypeScript, javaScript, HTML and CSS.
 
 - TypeScript;
 - javaScript;
-- HTMl;
+- HTML;
 - CSS.
 
 ## Structure
