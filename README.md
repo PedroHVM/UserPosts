@@ -17,6 +17,8 @@ This is a simple blog page developed in TypeScript, javaScript, HTML and CSS.
 - The full content page contains some comments about the post and a button to go back to the home page.
 
 
+## Visit Us
+-https://pedrohvm.github.io/UserPosts/
 
 
 ## Technologies
